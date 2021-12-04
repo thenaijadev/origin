@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>www.survey.com</title>
 </head>
 <body>
-    <form action="/" method="post">
-        <label for="cityInput"><p>Type in location:</p>
-            <input type="text" name="cityName" id="cityInput">
-        </label>
-        <button type="submit">Check weather</button>
-    </form>
-</body>
+    <h1 id="title">World Weather</h1>
+    <p id="description">
+       Search any city in the world and instantly get the weather of that city.
+    </p>
+    <div id="survey-form-div">
+    <form action="/" id="survey-form" method="post">
+        <label for="name" id="city-label">City:</label>
+        <input type="text" id="name" required placeholder="Type the name of the city to get the weather." name="city">
+      
+       <button type="submit" id="submit">Search</button>
 
-</html>
+    </form>
+</div>
+</body>

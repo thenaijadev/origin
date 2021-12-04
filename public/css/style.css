@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+    background:#003B46;
+    margin: 0;
+}
+
+#title{
+    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#description{
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#survey-form-div{
+    
+    background-color: #66A5AD;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+    
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city-label{
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+#name{
+    width:60%;
+    margin: 10px 0px 30px 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+#email-label{
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+    margin-left: 20px;
+    
+}
+
+#email{
+    width:60%;
+    margin: 10px 0px 30px 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+#submit{
+    height: 40px;
+    width: 40%;
+    align-self: left;
+    border-radius:5px;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: 0.1s;
+    font-weight: bold;
+}
+#submit:hover{
+    transform: scale(1.1);
+    
+}
+
+#roles{
+    width:62%;
+    margin: 10px 0px 30px 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
