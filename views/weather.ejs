@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.survey.com</title>
+</head>
+
+<body>
+    <h1 id="title">World Weather</h1>
+
+    <div id="weather-form-div">
+        <div id="weather">
+            <h1 class="weather-h1">
+                The weather in <%=city%> (<%=country%>)
+            </h1>
+            <h3>
+                Temperature: <%=temperature%> degrees celsius.
+            </h3>
+            <h3>
+                Description: <%=description%>
+            </h3>
+            <a id="back-button" href="/"><button  type="submit" id="submit">Return</button></a>
+
+        </div>
+    </div>
+</body>
