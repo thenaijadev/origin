@@ -34,7 +34,7 @@ body {
 
     background-color: #66A5AD;
     border-radius: 5px;
-    width: 82%;
+    width: 80%;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -99,11 +99,10 @@ body {
 #back-button {
     height: 40px;
     width: 40%;
-    align-self: left;
+  
     border-radius: 5px;
     border: none;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    
     transition: 0.1s;
     font-weight: bold;
     color: white;
