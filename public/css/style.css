@@ -98,3 +98,11 @@ body {
     font-weight: bold;
     color: white;
 }
+
+#weather-h1{
+    margin: 20px;
+}
+
+#weather-text{
+    padding: 20px;
+}

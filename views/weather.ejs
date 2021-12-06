@@ -12,9 +12,10 @@
 <body>
     <h1 id="title">World Weather</h1>
 
-    <div id="weather-form-div">
+    <div class="weather-form-div">
         <div id="weather">
-            <h1 class="weather-h1">
+            <div id="weather-text" >
+            <h1>
                 The weather in <%=city%> (<%=country%>).
             </h1>
             <h3>
@@ -23,6 +24,7 @@
             <h3>
                 Description: <%=description%>.
             </h3>
+        </div>
             <a id="back-button" href="/"><button  type="submit" id="submit">Return</button></a>
 
         </div>
