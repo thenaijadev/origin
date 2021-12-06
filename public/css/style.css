@@ -27,12 +27,6 @@ body {
     width: 82%;
     margin: auto;
     margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-
 }
 
 #weather-form {
